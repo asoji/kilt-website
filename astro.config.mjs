@@ -8,7 +8,7 @@ import cloudflare from '@astrojs/cloudflare';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://kilt.bluspring.xyz',
-  adapter: cloudflare(),
+
   integrations: [
       starlight({
           favicon: './favicon.png',
@@ -62,12 +62,4 @@ export default defineConfig({
   image: {
       service: passthroughImageService()
   },
-
-  vite: {
-    build: {
-        rolldownOptions: {
-            external: ['satteri']
-        }
-    }
-  }
 });
