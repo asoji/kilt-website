@@ -21,7 +21,7 @@ importers:
         specifier: ^7.4.0
         version: 7.4.0(@emnapi/core@1.11.1)(@types/node@24.13.2)(esbuild@0.28.2)(yaml@2.9.1)
       sharp:
-        specifier: 0.35.5
+        specifier: ^0.35.5
         version: 0.35.5(@types/node@24.13.2)
       starlight-theme-rapide:
         specifier: ^0.5.2
