@@ -61,5 +61,13 @@ export default defineConfig({
 
   image: {
       service: passthroughImageService()
+  },
+
+  vite: {
+    build: {
+        rolldownOptions: {
+            external: ['satteri']
+        }
+    }
   }
 });
